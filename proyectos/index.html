@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Proyectos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<style>body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    background: transparent;
+    padding: 20px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav .logo {
+    margin-right: 20px;
+}
+
+nav .logo img {
+    height: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.container {
+    text-align: center;
+    margin-top: 100px; /* Adjusted for the fixed navbar */
+    padding: 20px;
+}
+
+.project-card {
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    border: 2px solid #fff; /* White border */
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.project-card:hover {
+    transform: scale(1.02); /* Subtle scale up the card on hover */
+}
+
+.project-card img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.project-info {
+    text-align: left;
+}
+
+.project-info h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.project-info p {
+    margin: 10px 0;
+}
+
+.project-info a {
+    color: #32cd32; /* Green color for links */
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.project-info a:hover {
+    color: #adff2f; /* Lighter green on hover */
+}
+
+.social-icons {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+}
+</style>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="https://mvrda.city/logoandot.png" alt="Logo">
+        </div>
+        <ul>
+            <li><a href="../index.html">INICIO</a></li>
+            <li><a href="proyectos">PROYECTOS</a></li>
+            
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>MIS PROYECTOS</h1>
+        <div class="project-card">
+            <img src="https://github.com/itsAndot/mcpanel/raw/main/screenshots/index.png" alt="Proyecto 1">
+            <div class="project-info">
+                <h2>PANEL DE CONTROL DE USUARIO PARA SAN ANDREAS MULTIPLAYER</h2>
+                <p>Panel de control de usuario (PCU) privado y altamente personalizable para San Andreas Multiplayer realizado con PHP, HTML, CSS y JavaScript.</p>
+                <a href="https://github.com/itsAndot/mcpanel" target="_blank">Ver en GitHub</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="https://github.com/itsAndot/mcsapd/raw/main/screenshots/index.png" alt="Proyecto 2">
+            <div class="project-info">
+                <h2>PANEL POLICIAL PARA SAN ANDREAS MULTIPLAYER</h2>
+                <p>Panel policial (SAPD) privado para servidor de San Andreas Multiplayer realizado con PHP, HTML, CSS y JavaScript.</p>
+                <a href="https://github.com/itsAndot/mcsapd" target="_blank">Ver en GitHub</a>
+            </div>
+            
+        </div>
+        <div class="project-card">
+            <img src="https://cdn.discordapp.com/attachments/638111696073916426/1263867806974218280/image_1_28.png?ex=669bcc1e&is=669a7a9e&hm=870b9ae26c2c8052ba25b203a0dd9b119a0a25c39ea4f9b54b28e991ff5ada5d&" alt="Proyecto 3">
+            <div class="project-info">
+                <h2>DIMICMS</h2>
+                <p>Content Management System (CMS) compatible con emulador Arcturus.</p>
+                <a href="https://github.com/itsAndot/dimicms" target="_blank">Ver en GitHub</a>
+            </div>
+            
+        </div>
+        <!-- Añade más proyectos según sea necesario -->
+        <div class="social-icons">
+            <a href="https://example.com" target="_blank"><i class="fas fa-times"></i></a>
+            <a href="mailto:tu-email@example.com"><i class="fas fa-envelope"></i></a>
+            <a href="https://discord.com/users/tu-usuario" target="_blank"><i class="fab fa-discord"></i></a>
+            <a href="https://github.com/tu-usuario" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </div>
+</body>
+</html>
